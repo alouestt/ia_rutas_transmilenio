@@ -1,7 +1,14 @@
+# Archivos compilados de Python
 __pycache__/
 *.pyc
-.venv/
+
+# Entorno virtual
 venv/
-.env
-.vscode/
+.venv/
+
+# Documentación local
 docs/
+
+# Archivos temporales
+*.tmp
+*.log
