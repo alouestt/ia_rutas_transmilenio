@@ -4,16 +4,16 @@
 
 Proyecto académico desarrollado en Python para representar conocimiento mediante hechos y reglas, y utilizar una búsqueda heurística A\* para encontrar una ruta de menor costo entre dos estaciones de una red reducida de transporte masivo.
 
-> **Importante:** la red incluida en este proyecto es un modelo académico simplificado. No constituye un planificador de viajes en tiempo real ni debe utilizarse para tomar decisiones de desplazamiento. La selección de estaciones y corredores se tomó como referencia de documentación oficial de TransMilenio.
+> **Importante:** la red incluida en este proyecto corresponde a un modelo académico simplificado. No constituye un planificador de viajes en tiempo real ni debe utilizarse para tomar decisiones de desplazamiento. La selección de estaciones y corredores se tomó como referencia de documentación oficial de TransMilenio.
 
 ## 1. Objetivo
 
 Desarrollar un sistema inteligente que:
 
-1. represente una base de conocimiento sobre estaciones y conexiones;
-2. utilice reglas para determinar estaciones válidas, conexiones y transbordos;
-3. explore diferentes alternativas mediante búsqueda heurística A\*;
-4. seleccione una ruta de menor costo entre un punto de origen y un destino.
+1. Represente una base de conocimiento sobre estaciones y conexiones.
+2. Utilice reglas para determinar estaciones válidas, conexiones y transbordos.
+3. Explore diferentes alternativas mediante una búsqueda heurística A\*.
+4. Encuentre una ruta de menor costo entre un punto de origen y un destino.
 
 ## 2. Conceptos utilizados
 
@@ -24,7 +24,7 @@ La base de conocimiento está formada por:
 - estaciones;
 - conexiones entre estaciones;
 - corredor asociado a cada conexión;
-- coordenadas topológicas utilizadas por la función heurística.
+- coordenadas simplificadas utilizadas por la función heurística.
 
 ### Reglas
 
@@ -32,34 +32,35 @@ El sistema incorpora reglas que pueden expresarse de forma lógica:
 
 - Si una estación pertenece a la base de conocimiento, entonces es una estación válida.
 - Si existe una conexión entre dos estaciones, entonces es posible desplazarse entre ellas.
-- Si la línea utilizada cambia durante el recorrido, entonces existe un transbordo.
-- Si una conexión permite llegar a un vecino, entonces ese vecino puede ser considerado por el algoritmo de búsqueda.
+- Si el corredor utilizado cambia durante el recorrido, entonces existe un transbordo.
+- Si una conexión permite llegar a una estación vecina, entonces esta puede ser considerada por el algoritmo de búsqueda.
 
 ### Búsqueda heurística
 
-Se implementa A\*. La prioridad de cada estado se calcula como:
+Se implementa el algoritmo A\*. La prioridad de cada estado se calcula mediante:
 
 `f(n) = g(n) + h(n)`
 
 donde:
 
-- `g(n)` representa el costo acumulado;
-- `h(n)` representa la estimación del costo restante;
+- `g(n)` representa el costo acumulado desde el origen hasta el estado actual;
+- `h(n)` representa la estimación del costo restante hasta el destino;
 - `f(n)` representa la prioridad utilizada para explorar el estado.
 
-La heurística se calcula mediante distancia euclidiana sobre coordenadas topológicas simplificadas.
+La heurística se calcula mediante la distancia euclidiana sobre coordenadas simplificadas.
 
 El costo utilizado por el prototipo es:
 
-- 1 unidad por desplazamiento entre estaciones;
+- 1 unidad por cada desplazamiento entre estaciones;
 - 2 unidades adicionales por cada transbordo.
 
-Por tanto, el sistema busca una ruta que reduzca el costo total y no simplemente una ruta cualquiera.
+Por tanto, el sistema busca una ruta que reduzca el costo total de acuerdo con las condiciones definidas para el prototipo.
 
 ## 3. Estructura del proyecto
 
 ```text
 Actividad_3_IA_Rutas_TransMilenio/
+
 │
 ├── main.py
 ├── conocimiento.py
@@ -91,10 +92,10 @@ python main.py
 
 Después:
 
-1. revisar las estaciones disponibles;
-2. ingresar el origen;
-3. ingresar el destino;
-4. revisar la ruta encontrada y sus métricas.
+1. Revisar las estaciones disponibles.
+2. Ingresar el origen.
+3. Ingresar el destino.
+4. Revisar la ruta encontrada y sus métricas.
 
 ## 6. Ejecución de pruebas
 
@@ -111,15 +112,17 @@ El programa ejecuta casos de prueba relacionados con:
 - origen y destino iguales;
 - estación inexistente.
 
+Los resultados de las pruebas se encuentran en la carpeta `pruebas/`.
+
 ## 7. Archivos principales
 
 ### `conocimiento.py`
 
-Contiene los hechos y reglas que representan el conocimiento del sistema.
+Contiene los hechos y reglas que representan el conocimiento utilizado por el sistema.
 
 ### `busqueda.py`
 
-Contiene la implementación de A\* y la función heurística.
+Contiene la implementación del algoritmo A\* y la función heurística utilizada para estimar el costo restante.
 
 ### `main.py`
 
@@ -127,13 +130,13 @@ Permite interactuar con el sistema mediante la consola.
 
 ### `pruebas.py`
 
-Ejecuta casos de prueba para verificar el comportamiento del sistema.
+Ejecuta diferentes casos de prueba para verificar el comportamiento del sistema.
 
 ## 8. Fuente de referencia de la red
 
 TransMilenio. (2025). _Guía general de viaje de TransMilenio a corte de diciembre 2025_. https://www.transmilenio.gov.co/
 
-La red académica no pretende reproducir todos los servicios ni condiciones operativas del sistema real.
+La red utilizada en este proyecto corresponde a una representación académica simplificada y no pretende reproducir todos los servicios, rutas ni condiciones operativas del sistema real.
 
 ## 9. Bibliografía académica
 
