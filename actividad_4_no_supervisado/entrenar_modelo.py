@@ -42,6 +42,7 @@ def validar_dataset(datos):
         valores = pd.to_numeric(datos[columna], errors="coerce")
         if valores.isnull().any() or not np.isfinite(valores).all():
             raise ValueError(f"La columna {columna} contiene valores numéricos inválidos.")
+        datos[columna] = valores
 
     if not datos["hora_salida"].between(0, 23).all():
         raise ValueError("La hora_salida debe estar entre 0 y 23.")
