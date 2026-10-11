@@ -11,9 +11,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.tree import DecisionTreeClassifier, export_text
 
-CARPETA = Path(__file__).resolve().parent
-DATASET = CARPETA / "dataset_viajes.csv"
-SALIDA_PREDICCIONES = CARPETA / "predicciones_prueba.csv"
+CARPETA = Path(__file__).resolve().parent.parent
+DATASET = CARPETA / "data" / "dataset_viajes.csv"
+SALIDA_PREDICCIONES = CARPETA / "resultados" / "predicciones_prueba.csv"
 OBJETIVO = "nivel_demora"
 COLUMNAS_CATEGORICAS = ["origen", "destino"]
 COLUMNAS_NUMERICAS = [

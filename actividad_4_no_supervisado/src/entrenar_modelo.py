@@ -8,9 +8,9 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 
-CARPETA = Path(__file__).resolve().parent
-DATASET = CARPETA / "dataset_viajes.csv"
-SALIDA_RESULTADOS = CARPETA / "viajes_agrupados.csv"
+CARPETA = Path(__file__).resolve().parent.parent
+DATASET = CARPETA / "data" / "dataset_viajes.csv"
+SALIDA_RESULTADOS = CARPETA / "resultados" / "viajes_agrupados.csv"
 NUM_CLUSTERS = 3
 VALORES_K = range(2, 6)
 COLUMNAS_NUMERICAS = [

@@ -1,53 +1,36 @@
 # Actividad 3: Métodos de aprendizaje supervisado
 
-Este módulo desarrolla un ejercicio de clasificación supervisada a partir del proyecto de búsqueda de rutas de TransMilenio del repositorio.
+Este módulo entrena un árbol de decisión para clasificar el nivel **simulado** de demora de un viaje (Baja, Media o Alta) a partir de características de la ruta y su contexto.
 
-## Objetivo
+## Estructura
 
-Entrenar un árbol de decisión que clasifique el nivel simulado de demora de un viaje (Baja, Media o Alta) a partir de características de la ruta y del contexto del viaje.
-
-## Archivos
-
-- `generar_dataset.py`: reutiliza la base de conocimiento y la búsqueda A\* del proyecto principal para construir registros.
-- `entrenar_modelo.py`: valida los datos, separa entrenamiento y prueba, entrena el clasificador y reporta métricas.
-- `test_entrenar_modelo.py`: pruebas unitarias de validación y entrenamiento.
-- `dataset_viajes.csv`: se genera al ejecutar el generador.
-- `predicciones_prueba.csv`: se genera al entrenar y contiene etiquetas reales simuladas, predicciones y aciertos.
-- `requirements.txt`: dependencias de esta actividad.
-
-## Datos y limitaciones
-
-La red de estaciones y conexiones se toma de `conocimiento.py`, y las rutas se calculan con `busqueda.py`. Los horarios, las condiciones del viaje y las etiquetas de demora son simulados con fines académicos. No son mediciones oficiales ni predicciones reales de TransMilenio.
-
-La etiqueta `nivel_demora` se construye a partir de una regla que utiliza variables del mismo dataset. Por eso, la exactitud mide qué tan bien aprende el modelo esa regla simulada; no demuestra que prediga demoras reales. Esta limitación debe mencionarse al presentar los resultados.
+- `src/generar_dataset.py`: genera los viajes sintéticos reutilizando el sistema base.
+- `src/entrenar_modelo.py`: valida los datos, entrena el clasificador y presenta métricas.
+- `tests/test_entrenar_modelo.py`: pruebas unitarias.
+- `data/dataset_viajes.csv`: conjunto de datos utilizado por el modelo.
+- `resultados/predicciones_prueba.csv`: predicciones generadas durante el entrenamiento.
+- `docs/DESCRIPCION_DATOS.md`: descripción de las variables y limitaciones.
+- `docs/PRUEBAS.md`: informe de pruebas.
+- `requirements.txt`: dependencias de la actividad.
 
 ## Ejecución
 
-Desde la raíz del repositorio:
+Ejecutar los comandos desde la raíz del repositorio:
 
 ```bash
-python actividad_3_supervisado/generar_dataset.py
 python -m pip install -r actividad_3_supervisado/requirements.txt
-python actividad_3_supervisado/entrenar_modelo.py
-python -m unittest discover -s actividad_3_supervisado -p "test_*.py" -v
+python actividad_3_supervisado/src/generar_dataset.py
+python actividad_3_supervisado/src/entrenar_modelo.py
+python -m unittest discover -s actividad_3_supervisado/tests -p "test_*.py" -v
 ```
 
-El generador añade la raíz del repositorio a la ruta de importación para reutilizar los módulos existentes. El entrenador valida las columnas, valores vacíos, rangos horarios, variables binarias y etiquetas antes de ajustar el modelo.
+El generador y el entrenador utilizan rutas relativas a la ubicación de los scripts, por lo que los archivos de datos y resultados permanecen en sus carpetas aunque el comando se ejecute desde la raíz.
 
-## Variables del dataset
+## Variables y limitaciones
 
-- `origen`, `destino`: estaciones del viaje.
-- `paradas`: cantidad de tramos entre estaciones.
-- `transbordos`: transbordos reportados por la búsqueda A\*.
-- `costo_ruta`: costo de la ruta según el proyecto base.
-- `hora_salida`: hora simulada de salida (0 a 23).
-- `hora_pico`: indica una franja simulada de mayor demanda.
-- `lluvia`: condición meteorológica simulada.
-- `nivel_demora`: etiqueta objetivo simulada.
-
-El entrenamiento muestra accuracy, reporte de clasificación, matriz de confusión y reglas del árbol. Las predicciones se guardan en `predicciones_prueba.csv` para facilitar su revisión.
+El dataset incluye origen, destino, paradas, transbordos, costo de ruta, hora de salida, hora pico, lluvia y nivel de demora. Los datos y las etiquetas son simulados con fines académicos. La exactitud mide el ajuste a la regla usada para crear las etiquetas; no demuestra capacidad para predecir demoras reales.
 
 ## Documentación complementaria
 
-- [Descripción de los datos](DESCRIPCION_DATOS.md)
-- [Informe de pruebas](PRUEBAS.md)
+- [Descripción de los datos](docs/DESCRIPCION_DATOS.md)
+- [Informe de pruebas](docs/PRUEBAS.md)

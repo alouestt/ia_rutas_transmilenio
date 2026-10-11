@@ -1,14 +1,14 @@
 # Archivos compilados de Python
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Entorno virtual
+# Entornos virtuales
 venv/
 .venv/
-
-# Documentación local
-docs/
 
 # Archivos temporales
 *.tmp
 *.log
+
+# Archivos de entorno
+.env

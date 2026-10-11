@@ -1,6 +1,15 @@
 """Pruebas unitarias del generador y del entrenamiento supervisado."""
 
+import sys
 import unittest
+from pathlib import Path
+
+CARPETA_ACTIVIDAD = Path(__file__).resolve().parents[1]
+SRC_ACTIVIDAD = CARPETA_ACTIVIDAD / "src"
+SRC_COMPARTIDO = CARPETA_ACTIVIDAD.parent / "src"
+for ruta in (SRC_ACTIVIDAD, SRC_COMPARTIDO):
+    if str(ruta) not in sys.path:
+        sys.path.insert(0, str(ruta))
 
 import pandas as pd
 
