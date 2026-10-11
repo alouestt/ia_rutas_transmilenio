@@ -6,7 +6,7 @@ El conjunto de datos permite entrenar un modelo de aprendizaje supervisado para 
 
 ## 2. Fuente de los datos
 
-El archivo `dataset_viajes.csv` se genera mediante `generar_dataset.py`, reutilizando la red de estaciones de `conocimiento.py` y la búsqueda de rutas implementada en `busqueda.py`.
+El archivo `data/dataset_viajes.csv` se genera mediante `src/generar_dataset.py`, reutilizando la red de estaciones de `conocimiento.py` y la búsqueda de rutas implementada en `busqueda.py`.
 
 La ejecución de referencia genera 600 registros. Los datos de contexto y las etiquetas de demora son sintéticos y tienen fines académicos.
 
@@ -36,9 +36,9 @@ Los datos no corresponden a mediciones oficiales de TransMilenio.
 
 ## 6. Archivos relacionados
 
-- `generar_dataset.py`: genera los datos.
-- `dataset_viajes.csv`: conjunto de datos.
-- `entrenar_modelo.py`: valida, entrena y evalúa el modelo.
-- `predicciones_prueba.csv`: contiene las predicciones obtenidas.
-- `test_entrenar_modelo.py`: contiene las pruebas unitarias.
+- `src/generar_dataset.py`: genera los datos.
+- `data/dataset_viajes.csv`: conjunto de datos.
+- `src/entrenar_modelo.py`: valida, entrena y evalúa el modelo.
+- `resultados/predicciones_prueba.csv`: contiene las predicciones obtenidas.
+- `test_src/entrenar_modelo.py`: contiene las pruebas unitarias.
 - `requirements.txt`: especifica las dependencias.

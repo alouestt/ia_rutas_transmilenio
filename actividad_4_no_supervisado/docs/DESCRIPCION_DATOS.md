@@ -6,7 +6,7 @@ El conjunto de datos se utiliza para explorar agrupamientos de viajes mediante K
 
 ## 2. Fuente y generación de los datos
 
-El archivo `dataset_viajes.csv` se genera mediante `generar_dataset.py`. El proceso reutiliza la red académica de estaciones y conexiones de `conocimiento.py` y la búsqueda de rutas de `busqueda.py`.
+El archivo `data/dataset_viajes.csv` se genera mediante `src/generar_dataset.py`. El proceso reutiliza la red académica de estaciones y conexiones de `conocimiento.py` y la búsqueda de rutas de `busqueda.py`.
 
 El conjunto de datos contiene 600 registros en la ejecución de referencia. Las variables contextuales, como la hora de salida y la lluvia, se simulan con fines académicos.
 
@@ -29,7 +29,7 @@ El programa valida las columnas requeridas, los valores vacíos y la coherencia 
 
 La hora se transforma mediante funciones seno y coseno para representar su carácter cíclico y mantener la cercanía entre las horas próximas a la medianoche. El modelo compara diferentes valores de k mediante el coeficiente de silueta y describe las características de los grupos obtenidos.
 
-El archivo `viajes_agrupados.csv` contiene los registros junto con el identificador del clúster asignado.
+El archivo `resultados/viajes_agrupados.csv` contiene los registros junto con el identificador del clúster asignado.
 
 ## 5. Limitaciones
 
@@ -39,9 +39,9 @@ Los identificadores de clúster no constituyen categorías ordenadas ni niveles 
 
 ## 6. Archivos relacionados
 
-- `generar_dataset.py`: generación del conjunto de datos.
-- `dataset_viajes.csv`: datos utilizados por el modelo.
-- `entrenar_modelo.py`: preparación, agrupamiento y evaluación.
-- `viajes_agrupados.csv`: registros con su clúster asignado.
-- `test_entrenar_modelo.py`: pruebas unitarias.
+- `src/generar_dataset.py`: generación del conjunto de datos.
+- `data/dataset_viajes.csv`: datos utilizados por el modelo.
+- `src/entrenar_modelo.py`: preparación, agrupamiento y evaluación.
+- `resultados/viajes_agrupados.csv`: registros con su clúster asignado.
+- `test_src/entrenar_modelo.py`: pruebas unitarias.
 - `requirements.txt`: dependencias de Python.
