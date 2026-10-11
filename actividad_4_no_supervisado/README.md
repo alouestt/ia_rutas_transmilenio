@@ -45,3 +45,8 @@ python -m unittest discover -s actividad_4_no_supervisado -p "test_*.py" -v
 Para K-Means se escalan las variables numéricas. La hora se representa con seno y coseno para que 23:00 y 00:00 se consideren cercanas. El perfil horario usa un promedio circular para evitar una interpretación engañosa alrededor de medianoche.
 
 El programa compara la silueta para k=2, 3, 4 y 5 (cuando es posible). Una silueta baja indica que los grupos no están bien separados; no es necesariamente un error del programa. Las agrupaciones siguen siendo exploratorias porque los datos son sintéticos.
+
+## Documentación complementaria
+
+- [Descripción de los datos](DESCRIPCION_DATOS.md)
+- [Informe de pruebas](PRUEBAS.md)

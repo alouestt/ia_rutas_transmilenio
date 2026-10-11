@@ -46,3 +46,8 @@ El generador añade la raíz del repositorio a la ruta de importación para reut
 - `nivel_demora`: etiqueta objetivo simulada.
 
 El entrenamiento muestra accuracy, reporte de clasificación, matriz de confusión y reglas del árbol. Las predicciones se guardan en `predicciones_prueba.csv` para facilitar su revisión.
+
+## Documentación complementaria
+
+- [Descripción de los datos](DESCRIPCION_DATOS.md)
+- [Informe de pruebas](PRUEBAS.md)
