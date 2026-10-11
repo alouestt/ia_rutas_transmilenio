@@ -2,6 +2,7 @@
 
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
@@ -40,8 +41,9 @@ def validar_dataset(datos):
 
     for columna in COLUMNAS_NUMERICAS:
         valores = pd.to_numeric(datos[columna], errors="coerce")
-        if valores.isnull().any():
-            raise ValueError(f"La columna {columna} contiene valores no numéricos.")
+        if valores.isnull().any() or not np.isfinite(valores).all():
+            raise ValueError(f"La columna {columna} contiene valores numéricos inválidos.")
+        datos[columna] = valores
 
     if not datos["hora_salida"].between(0, 23).all():
         raise ValueError("La hora_salida debe estar entre 0 y 23.")
