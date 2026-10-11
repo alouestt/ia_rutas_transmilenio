@@ -1,0 +1,151 @@
+origen,destino,paradas,transbordos,costo_ruta,hora_salida,hora_pico,lluvia,nivel_demora_real,nivel_demora_predicho,prediccion_correcta
+Universidad Nacional,Mandalay,5,1,7,2,0,0,Media,Media,True
+Marsella,Calle 72,7,0,7,12,0,0,Media,Media,True
+Mandalay,Calle 57,6,1,8,10,0,1,Media,Media,True
+Calle 127,Calle 57,5,1,7,16,1,0,Media,Media,True
+Portal Américas,Banderas,1,0,1,23,0,1,Baja,Baja,True
+Calle 127,Portal Américas,13,1,15,23,0,0,Alta,Alta,True
+Marsella,Calle 100,9,1,11,17,1,1,Alta,Alta,True
+Universidad Nacional,Marsella,4,1,6,9,1,0,Media,Media,True
+Calle 19,Calle 85,5,1,7,3,0,0,Media,Media,True
+Paloquemao,Calle 26,3,1,5,15,0,1,Media,Media,True
+Calle 100,Banderas,11,1,13,4,0,0,Alta,Alta,True
+Calle 72,Calle 26,3,0,3,1,0,0,Baja,Baja,True
+Universidad Nacional,Calle 72,3,1,5,14,0,0,Baja,Baja,True
+Calle 57,Calle 100,4,1,6,1,0,0,Media,Media,True
+Calle 100,Ricaurte,7,1,9,12,0,1,Alta,Alta,True
+Calle 26,Marsella,4,0,4,20,0,0,Baja,Baja,True
+Portal Américas,Calle 100,12,1,14,5,0,1,Alta,Alta,True
+Marsella,Calle 85,8,1,10,22,0,0,Media,Alta,False
+Calle 63,Calle 100,3,0,3,20,0,1,Baja,Baja,True
+Portal Américas,Calle 19,6,0,6,1,0,1,Media,Media,True
+Calle 57,Portal Américas,8,1,10,3,0,1,Alta,Media,False
+Calle 19,Calle 26,1,0,1,13,0,0,Baja,Baja,True
+Zona Industrial,Mandalay,2,0,2,15,0,0,Baja,Baja,True
+Portal Norte,Banderas,13,1,15,14,0,1,Alta,Alta,True
+Calle 26,Calle 100,5,1,7,14,0,0,Media,Media,True
+Calle 63,Calle 45,1,0,1,9,1,1,Baja,Baja,True
+Calle 100,Calle 85,1,0,1,20,0,0,Baja,Baja,True
+Zona Industrial,Universidad Nacional,3,1,5,12,0,0,Baja,Baja,True
+Paloquemao,Portal Américas,6,1,8,16,1,1,Alta,Media,False
+Marsella,Portal Américas,3,0,3,13,0,0,Baja,Baja,True
+Calle 72,Calle 100,2,0,2,18,1,0,Baja,Baja,True
+Calle 26,Universidad Nacional,4,1,6,14,0,1,Media,Media,True
+Calle 72,Mandalay,8,0,8,8,1,0,Media,Alta,False
+Banderas,Ricaurte,4,0,4,3,0,1,Media,Media,True
+Calle 127,Portal Norte,1,0,1,12,0,0,Baja,Baja,True
+Marsella,Calle 72,7,0,7,19,1,0,Media,Alta,False
+Calle 127,Calle 100,1,0,1,8,1,1,Baja,Baja,True
+Calle 19,Marsella,3,0,3,0,0,1,Baja,Baja,True
+Universidad Nacional,Portal Américas,7,1,9,11,0,0,Media,Alta,False
+Universidad Nacional,Calle 26,4,1,6,16,1,0,Media,Media,True
+Calle 26,Calle 57,3,1,5,9,1,1,Media,Media,True
+Zona Industrial,Calle 19,2,0,2,18,1,1,Media,Media,True
+Ricaurte,Banderas,4,0,4,22,0,1,Media,Media,True
+Mandalay,Banderas,1,0,1,2,0,0,Baja,Baja,True
+Calle 100,Zona Industrial,8,1,10,10,0,0,Media,Alta,False
+Portal Américas,Calle 85,11,1,13,11,0,0,Alta,Alta,True
+Marsella,Paloquemao,3,1,5,11,0,1,Media,Media,True
+Calle 127,Calle 19,7,1,9,22,0,0,Media,Media,True
+Calle 100,Calle 63,3,0,3,1,0,1,Baja,Baja,True
+Calle 45,Calle 57,2,1,4,20,0,1,Media,Media,True
+Calle 72,Calle 26,3,0,3,19,1,1,Media,Media,True
+Calle 72,Calle 57,2,1,4,13,0,1,Media,Media,True
+Calle 85,Calle 127,2,0,2,8,1,0,Baja,Baja,True
+Universidad Nacional,Calle 127,6,1,8,3,0,1,Media,Media,True
+Portal Américas,Calle 19,6,0,6,16,1,0,Media,Media,True
+Mandalay,Marsella,1,0,1,16,1,0,Baja,Baja,True
+Marsella,Calle 85,8,1,10,6,1,0,Alta,Alta,True
+Calle 26,Ricaurte,2,0,2,23,0,1,Baja,Baja,True
+Calle 127,Calle 19,7,1,9,19,1,0,Alta,Media,False
+Calle 26,Banderas,6,0,6,1,0,1,Media,Media,True
+Zona Industrial,Calle 100,8,1,10,2,0,0,Media,Media,True
+Calle 57,Ricaurte,3,0,3,11,0,0,Baja,Baja,True
+Zona Industrial,Mandalay,2,0,2,12,0,1,Baja,Baja,True
+Portal Norte,Mandalay,12,1,14,6,1,0,Alta,Alta,True
+Calle 63,Calle 45,1,0,1,4,0,0,Baja,Baja,True
+Calle 19,Calle 57,4,1,6,9,1,0,Media,Media,True
+Zona Industrial,Marsella,1,0,1,17,1,1,Baja,Baja,True
+Calle 45,Marsella,5,0,5,2,0,0,Baja,Baja,True
+Calle 26,Calle 19,1,0,1,13,0,0,Baja,Baja,True
+Portal Norte,Portal Américas,14,1,16,2,0,1,Alta,Alta,True
+Portal Norte,Universidad Nacional,7,1,9,9,1,1,Alta,Alta,True
+Calle 63,Calle 100,3,0,3,12,0,0,Baja,Baja,True
+Paloquemao,Calle 72,4,1,6,20,0,0,Media,Media,True
+Portal Norte,Marsella,11,1,13,7,1,1,Alta,Alta,True
+Universidad Nacional,Mandalay,5,1,7,23,0,0,Media,Media,True
+Mandalay,Calle 19,4,0,4,3,0,0,Baja,Baja,True
+Calle 63,Calle 19,3,0,3,18,1,1,Media,Media,True
+Calle 19,Zona Industrial,2,0,2,0,0,1,Baja,Baja,True
+Portal Américas,Paloquemao,6,1,8,10,0,0,Media,Media,True
+Calle 19,Calle 45,2,0,2,21,0,0,Baja,Baja,True
+Calle 26,Universidad Nacional,4,1,6,5,0,0,Media,Media,True
+Banderas,Calle 45,7,0,7,14,0,0,Media,Media,True
+Calle 100,Calle 85,1,0,1,8,1,1,Baja,Baja,True
+Portal Norte,Calle 19,8,1,10,0,0,1,Alta,Media,False
+Calle 19,Calle 72,4,0,4,14,0,0,Baja,Baja,True
+Marsella,Calle 127,10,1,12,9,1,0,Alta,Alta,True
+Calle 57,Zona Industrial,4,1,6,3,0,0,Media,Media,True
+Calle 26,Paloquemao,3,1,5,6,1,1,Media,Media,True
+Universidad Nacional,Ricaurte,2,0,2,6,1,1,Media,Media,True
+Marsella,Universidad Nacional,4,1,6,20,0,1,Media,Media,True
+Calle 72,Marsella,7,0,7,11,0,0,Media,Media,True
+Portal Américas,Calle 100,12,1,14,3,0,0,Alta,Alta,True
+Calle 63,Calle 100,3,0,3,11,0,0,Baja,Baja,True
+Calle 85,Mandalay,9,1,11,23,0,1,Alta,Alta,True
+Calle 45,Calle 26,1,0,1,3,0,0,Baja,Baja,True
+Paloquemao,Portal Norte,8,1,10,3,0,0,Media,Media,True
+Calle 72,Zona Industrial,6,0,6,20,0,0,Media,Media,True
+Calle 127,Calle 45,5,1,7,22,0,0,Media,Media,True
+Calle 72,Calle 57,2,1,4,14,0,0,Baja,Baja,True
+Portal Norte,Calle 45,6,1,8,14,0,1,Media,Media,True
+Ricaurte,Calle 45,3,0,3,15,0,0,Baja,Baja,True
+Calle 72,Calle 57,2,1,4,21,0,1,Media,Media,True
+Calle 100,Mandalay,10,1,12,20,0,1,Alta,Alta,True
+Portal Américas,Calle 127,13,1,15,19,1,0,Alta,Alta,True
+Calle 45,Calle 127,5,1,7,5,0,0,Media,Media,True
+Zona Industrial,Calle 100,8,1,10,22,0,1,Alta,Alta,True
+Calle 72,Calle 26,3,0,3,0,0,0,Baja,Baja,True
+Portal Norte,Portal Américas,14,1,16,22,0,1,Alta,Alta,True
+Calle 127,Calle 57,5,1,7,10,0,1,Media,Media,True
+Calle 57,Calle 63,1,0,1,11,0,1,Baja,Baja,True
+Calle 63,Calle 72,1,0,1,23,0,1,Baja,Baja,True
+Calle 100,Calle 26,5,1,7,7,1,1,Alta,Media,False
+Ricaurte,Calle 100,7,1,9,5,0,0,Media,Alta,False
+Marsella,Universidad Nacional,4,1,6,0,0,1,Media,Media,True
+Mandalay,Banderas,1,0,1,4,0,1,Baja,Baja,True
+Calle 57,Banderas,7,1,9,0,0,0,Media,Media,True
+Calle 26,Zona Industrial,3,0,3,8,1,1,Media,Media,True
+Calle 85,Paloquemao,5,1,7,19,1,1,Alta,Media,False
+Calle 100,Calle 63,3,0,3,7,1,1,Media,Media,True
+Calle 57,Paloquemao,2,0,2,10,0,0,Baja,Baja,True
+Calle 127,Calle 45,5,1,7,18,1,0,Media,Media,True
+Paloquemao,Calle 72,4,1,6,5,0,0,Media,Media,True
+Calle 85,Ricaurte,6,1,8,6,1,1,Alta,Media,False
+Portal Américas,Zona Industrial,4,0,4,18,1,1,Media,Media,True
+Ricaurte,Calle 127,8,1,10,18,1,1,Alta,Alta,True
+Calle 57,Portal Américas,8,1,10,20,0,0,Media,Alta,False
+Calle 127,Calle 26,6,1,8,2,0,1,Media,Media,True
+Calle 19,Banderas,5,0,5,12,0,1,Media,Media,True
+Ricaurte,Portal Norte,9,1,11,17,1,0,Alta,Alta,True
+Calle 63,Calle 19,3,0,3,8,1,1,Media,Media,True
+Ricaurte,Calle 100,7,1,9,17,1,1,Alta,Alta,True
+Mandalay,Calle 19,4,0,4,19,1,1,Media,Media,True
+Banderas,Calle 100,11,1,13,16,1,0,Alta,Alta,True
+Calle 100,Universidad Nacional,5,1,7,10,0,0,Media,Media,True
+Portal Américas,Calle 85,11,1,13,16,1,0,Alta,Alta,True
+Calle 19,Calle 63,3,0,3,0,0,1,Baja,Baja,True
+Calle 63,Mandalay,7,0,7,0,0,0,Media,Media,True
+Calle 127,Paloquemao,7,1,9,13,0,0,Media,Alta,False
+Calle 72,Calle 85,1,0,1,22,0,1,Baja,Baja,True
+Ricaurte,Calle 19,1,0,1,15,0,1,Baja,Baja,True
+Ricaurte,Calle 45,3,0,3,22,0,1,Baja,Baja,True
+Portal Américas,Calle 57,8,1,10,19,1,1,Alta,Alta,True
+Ricaurte,Zona Industrial,1,0,1,16,1,1,Baja,Baja,True
+Calle 45,Calle 85,3,1,5,4,0,0,Baja,Baja,True
+Banderas,Calle 26,6,0,6,5,0,1,Media,Media,True
+Calle 63,Paloquemao,3,0,3,9,1,1,Media,Media,True
+Banderas,Zona Industrial,3,0,3,7,1,1,Media,Media,True
+Paloquemao,Calle 63,3,0,3,1,0,0,Baja,Baja,True
+Mandalay,Zona Industrial,2,0,2,21,0,0,Baja,Baja,True
+Calle 26,Ricaurte,2,0,2,10,0,1,Baja,Baja,True
