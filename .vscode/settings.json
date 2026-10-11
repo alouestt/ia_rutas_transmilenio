@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/actividad_4_no_supervisado/src",
+        "${workspaceFolder}/actividad_3_supervisado/src"
+    ],
+    "python.analysis.diagnosticMode": "workspace"
+}
