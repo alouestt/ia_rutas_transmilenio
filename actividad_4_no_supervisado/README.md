@@ -6,7 +6,7 @@ Este módulo aplica K-Means a viajes sintéticos para explorar agrupamientos seg
 
 - `src/generar_dataset.py`: genera una muestra reproducible de viajes.
 - `src/entrenar_modelo.py`: valida los datos, ejecuta K-Means, compara valores de k y presenta métricas.
-- `tests/test_entrenar_modelo.py`: pruebas unitarias.
+- `tests/test_no_supervisado.py`: pruebas unitarias.
 - `data/dataset_viajes.csv`: conjunto de datos utilizado por el modelo.
 - `resultados/viajes_agrupados.csv`: registros con el clúster asignado.
 - `docs/DESCRIPCION_DATOS.md`: descripción de las variables y limitaciones.

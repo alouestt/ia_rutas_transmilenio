@@ -6,7 +6,7 @@ Este módulo entrena un árbol de decisión para clasificar el nivel **simulado*
 
 - `src/generar_dataset.py`: genera los viajes sintéticos reutilizando el sistema base.
 - `src/entrenar_modelo.py`: valida los datos, entrena el clasificador y presenta métricas.
-- `tests/test_entrenar_modelo.py`: pruebas unitarias.
+- `tests/test_supervisado.py`: pruebas unitarias.
 - `data/dataset_viajes.csv`: conjunto de datos utilizado por el modelo.
 - `resultados/predicciones_prueba.csv`: predicciones generadas durante el entrenamiento.
 - `docs/DESCRIPCION_DATOS.md`: descripción de las variables y limitaciones.
