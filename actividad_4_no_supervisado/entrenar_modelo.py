@@ -2,6 +2,7 @@
 
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
@@ -24,8 +25,8 @@ def preparar_variables(datos):
     """Escala variables numéricas y codifica la hora de forma cíclica."""
     variables = datos[COLUMNAS_NUMERICAS].copy()
     angulo = 2 * 3.141592653589793 * datos["hora_salida"] / 24
-    variables["hora_sin"] = __import__("numpy").sin(angulo)
-    variables["hora_cos"] = __import__("numpy").cos(angulo)
+    variables["hora_sin"] = np.sin(angulo)
+    variables["hora_cos"] = np.cos(angulo)
     escalador = StandardScaler()
     transformadas = escalador.fit_transform(variables)
     return transformadas, variables.columns.tolist()
