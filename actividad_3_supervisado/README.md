@@ -8,7 +8,7 @@ Entrenar un árbol de decisión que clasifique el nivel estimado de demora de un
 
 ## Estructura
 
-- generar_dataset.py: reutiliza la base de conocimiento y la búsqueda A* del proyecto principal para construir registros de viajes.
+- generar_dataset.py: reutiliza la base de conocimiento y la búsqueda A\* del proyecto principal para construir registros de viajes.
 - entrenar_modelo.py: prepara los datos, separa entrenamiento y prueba, entrena el clasificador y reporta métricas.
 - dataset_viajes.csv: se genera localmente al ejecutar el generador; no hace falta modificar los archivos originales.
 - requirements.txt: dependencias exclusivas de esta actividad.
@@ -33,7 +33,7 @@ También puedes entrar a la carpeta y ejecutar ambos scripts desde allí. El gen
 
 - origen, destino: estaciones del viaje.
 - paradas: cantidad de tramos entre estaciones.
-- transbordos: transbordos reportados por la búsqueda A*.
+- transbordos: transbordos reportados por la búsqueda A\*.
 - costo_ruta: costo de la ruta según el proyecto base.
 - hora_salida: hora simulada de salida.
 - hora_pico: indica si el viaje cae en una franja simulada de alta demanda.

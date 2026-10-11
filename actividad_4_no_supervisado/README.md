@@ -1,6 +1,6 @@
 # Actividad 4: Métodos de aprendizaje no supervisado
 
-Este módulo aplica agrupamiento (*clustering*) a viajes sintéticos construidos a partir de la red académica de rutas del proyecto.
+Este módulo aplica agrupamiento (_clustering_) a viajes sintéticos construidos a partir de la red académica de rutas del proyecto.
 
 ## Objetivo
 
@@ -33,7 +33,7 @@ python actividad_4_no_supervisado/entrenar_modelo.py
 
 - `origen`, `destino`: estaciones de inicio y fin.
 - `paradas`: cantidad de tramos de la ruta.
-- `transbordos`: transbordos reportados por la búsqueda A*.
+- `transbordos`: transbordos reportados por la búsqueda A\*.
 - `costo_ruta`: costo calculado por el proyecto base.
 - `hora_salida`: hora simulada de salida.
 - `hora_pico`: indicador de una franja horaria simulada de mayor demanda.
