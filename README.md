@@ -1,6 +1,6 @@
 # Sistema inteligente de rutas de transporte
 
-Proyecto académico en Python que representa una red simplificada de estaciones y aplica búsqueda heurística A* para encontrar rutas de menor costo. El repositorio también incluye ejercicios de aprendizaje supervisado y no supervisado.
+Proyecto académico en Python que representa una red simplificada de estaciones y aplica búsqueda heurística A\* para encontrar rutas de menor costo. El repositorio también incluye ejercicios de aprendizaje supervisado y no supervisado.
 
 > **Importante:** la red es un modelo académico simplificado. No es un planificador de viajes en tiempo real ni debe utilizarse para decisiones de desplazamiento.
 
@@ -63,7 +63,7 @@ Los datos contextuales y las etiquetas de demora utilizados en las actividades d
 
 ## Referencias
 
-- TransMilenio. (2025). *Guía general de viaje de TransMilenio a corte de diciembre 2025*. https://www.transmilenio.gov.co/
-- Benítez, R. (2014). *Inteligencia artificial avanzada*. Editorial UOC.
-- Corporación Universitaria Iberoamericana. (s. f.). *Bibliografía - Inteligencia Artificial*. https://campusvirtual.ibero.edu.co/repositorio/Cursos-Matriz/Ingenieria/Ingenieria-software/Inteligencia-Artificial/Inteligencia_artificial/index.html
-- Python Software Foundation. (s. f.). *heapq — Heap queue algorithm*. https://docs.python.org/3/library/heapq.html
+- TransMilenio. (2025). _Guía general de viaje de TransMilenio a corte de diciembre 2025_. https://www.transmilenio.gov.co/
+- Benítez, R. (2014). _Inteligencia artificial avanzada_. Editorial UOC.
+- Corporación Universitaria Iberoamericana. (s. f.). _Bibliografía - Inteligencia Artificial_. https://campusvirtual.ibero.edu.co/repositorio/Cursos-Matriz/Ingenieria/Ingenieria-software/Inteligencia-Artificial/Inteligencia_artificial/index.html
+- Python Software Foundation. (s. f.). _heapq — Heap queue algorithm_. https://docs.python.org/3/library/heapq.html

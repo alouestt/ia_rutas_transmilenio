@@ -1,1 +1,3 @@
-# No hay dependencias externas. El proyecto utiliza la biblioteca estándar de Python.
+-r actividad_3_supervisado/requirements.txt
+-r actividad_4_no_supervisado/requirements.txt
+pytest>=8.0
