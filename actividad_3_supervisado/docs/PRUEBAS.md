@@ -10,7 +10,7 @@ Las pruebas se ejecutan con Python y `unittest`, desde la raíz del repositorio.
 
 Comando utilizado:
 
-`python -m unittest discover -s actividad_3_supervisado -p "test_*.py" -v`
+`python -m unittest discover -s actividad_3_supervisado/tests -p "test_*.py" -v`
 
 ## 3. Casos de prueba
 
@@ -34,7 +34,7 @@ En la ejecución registrada el 11 de octubre de 2026, las ocho pruebas finalizar
 
 En una ejecución anterior del entrenamiento se obtuvo una exactitud (_accuracy_) de 0.900 con 600 registros. Este resultado corresponde a datos sintéticos y no representa una evaluación de demoras reales de TransMilenio.
 
-El archivo `predicciones_prueba.csv` permite revisar las etiquetas simuladas, las predicciones y sus aciertos.
+El archivo `resultados/predicciones_prueba.csv` permite revisar las etiquetas simuladas, las predicciones y sus aciertos.
 
 ## 5. Conclusión
 

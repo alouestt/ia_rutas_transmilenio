@@ -10,7 +10,7 @@ Las pruebas se ejecutan con Python y `unittest`, desde la raíz del repositorio.
 
 Comando utilizado:
 
-`python -m unittest discover -s actividad_4_no_supervisado -p "test_*.py" -v`
+`python -m unittest discover -s actividad_4_no_supervisado/tests -p "test_*.py" -v`
 
 ## 3. Casos de prueba
 

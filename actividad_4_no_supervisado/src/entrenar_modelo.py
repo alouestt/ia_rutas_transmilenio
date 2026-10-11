@@ -8,9 +8,9 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 
-CARPETA = Path(__file__).resolve().parent
-DATASET = CARPETA / "dataset_viajes.csv"
-SALIDA_RESULTADOS = CARPETA / "viajes_agrupados.csv"
+CARPETA = Path(__file__).resolve().parent.parent
+DATASET = CARPETA / "data" / "dataset_viajes.csv"
+SALIDA_RESULTADOS = CARPETA / "resultados" / "viajes_agrupados.csv"
 NUM_CLUSTERS = 3
 VALORES_K = range(2, 6)
 COLUMNAS_NUMERICAS = [
@@ -93,7 +93,7 @@ def main():
     if not DATASET.exists():
         raise FileNotFoundError(
             "No existe dataset_viajes.csv. Ejecuta primero "
-            "'python actividad_4_no_supervisado/generar_dataset.py' desde la raíz."
+            "'python actividad_4_no_supervisado/src/generar_dataset.py' desde la raíz."
         )
 
     datos = pd.read_csv(DATASET)
