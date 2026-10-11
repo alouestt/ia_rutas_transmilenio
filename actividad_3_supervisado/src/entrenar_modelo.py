@@ -84,7 +84,7 @@ def main():
     if not DATASET.exists():
         raise FileNotFoundError(
             "No existe dataset_viajes.csv. Ejecuta primero "
-            "'python actividad_3_supervisado/generar_dataset.py' desde la raíz."
+            "'python actividad_3_supervisado/src/generar_dataset.py' desde la raíz."
         )
 
     datos = pd.read_csv(DATASET)
