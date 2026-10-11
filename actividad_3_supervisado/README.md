@@ -4,20 +4,24 @@ Este módulo desarrolla un ejercicio de clasificación supervisada a partir del 
 
 ## Objetivo
 
-Entrenar un árbol de decisión que clasifique el nivel estimado de demora de un viaje (Baja, Media o Alta) a partir de características de la ruta y del contexto del viaje.
+Entrenar un árbol de decisión que clasifique el nivel simulado de demora de un viaje (Baja, Media o Alta) a partir de características de la ruta y del contexto del viaje.
 
-## Estructura
+## Archivos
 
-- generar_dataset.py: reutiliza la base de conocimiento y la búsqueda A\* del proyecto principal para construir registros de viajes.
-- entrenar_modelo.py: prepara los datos, separa entrenamiento y prueba, entrena el clasificador y reporta métricas.
-- dataset_viajes.csv: se genera localmente al ejecutar el generador; no hace falta modificar los archivos originales.
-- requirements.txt: dependencias exclusivas de esta actividad.
+- `generar_dataset.py`: reutiliza la base de conocimiento y la búsqueda A\* del proyecto principal para construir registros.
+- `entrenar_modelo.py`: valida los datos, separa entrenamiento y prueba, entrena el clasificador y reporta métricas.
+- `test_entrenar_modelo.py`: pruebas unitarias de validación y entrenamiento.
+- `dataset_viajes.csv`: se genera al ejecutar el generador.
+- `predicciones_prueba.csv`: se genera al entrenar y contiene etiquetas reales simuladas, predicciones y aciertos.
+- `requirements.txt`: dependencias de esta actividad.
 
-## Importante sobre los datos
+## Datos y limitaciones
 
-La red de estaciones y conexiones se toma de conocimiento.py, y las rutas se calculan con busqueda.py. **Los horarios, las condiciones del viaje y las etiquetas de demora son simulados con fines académicos**. No son mediciones oficiales ni predicciones reales de TransMilenio. El modelo aprenderá patrones de la regla de simulación, por lo que sus resultados no deben interpretarse como desempeño operativo real.
+La red de estaciones y conexiones se toma de `conocimiento.py`, y las rutas se calculan con `busqueda.py`. Los horarios, las condiciones del viaje y las etiquetas de demora son simulados con fines académicos. No son mediciones oficiales ni predicciones reales de TransMilenio.
 
-## Cómo ejecutar
+La etiqueta `nivel_demora` se construye a partir de una regla que utiliza variables del mismo dataset. Por eso, la exactitud mide qué tan bien aprende el modelo esa regla simulada; no demuestra que prediga demoras reales. Esta limitación debe mencionarse al presentar los resultados.
+
+## Ejecución
 
 Desde la raíz del repositorio:
 
@@ -25,21 +29,20 @@ Desde la raíz del repositorio:
 python actividad_3_supervisado/generar_dataset.py
 python -m pip install -r actividad_3_supervisado/requirements.txt
 python actividad_3_supervisado/entrenar_modelo.py
+python -m unittest discover -s actividad_3_supervisado -p "test_*.py" -v
 ```
 
-También puedes entrar a la carpeta y ejecutar ambos scripts desde allí. El generador añade la raíz del repositorio a la ruta de importación para reutilizar los módulos existentes.
+El generador añade la raíz del repositorio a la ruta de importación para reutilizar los módulos existentes. El entrenador valida las columnas, valores vacíos, rangos horarios, variables binarias y etiquetas antes de ajustar el modelo.
 
-## Variables del conjunto de datos
+## Variables del dataset
 
-- origen, destino: estaciones del viaje.
-- paradas: cantidad de tramos entre estaciones.
-- transbordos: transbordos reportados por la búsqueda A\*.
-- costo_ruta: costo de la ruta según el proyecto base.
-- hora_salida: hora simulada de salida.
-- hora_pico: indica si el viaje cae en una franja simulada de alta demanda.
-- lluvia: condición meteorológica simulada.
-- nivel_demora: etiqueta objetivo de clasificación.
+- `origen`, `destino`: estaciones del viaje.
+- `paradas`: cantidad de tramos entre estaciones.
+- `transbordos`: transbordos reportados por la búsqueda A\*.
+- `costo_ruta`: costo de la ruta según el proyecto base.
+- `hora_salida`: hora simulada de salida (0 a 23).
+- `hora_pico`: indica una franja simulada de mayor demanda.
+- `lluvia`: condición meteorológica simulada.
+- `nivel_demora`: etiqueta objetivo simulada.
 
-## Qué revisar en el informe
-
-El script muestra la distribución de clases, la exactitud (accuracy), el reporte de clasificación y la matriz de confusión. Como las etiquetas se generan mediante reglas, conviene explicar las limitaciones del conjunto sintético y que una evaluación alta no demuestra que el modelo funcione con datos reales.
+El entrenamiento muestra accuracy, reporte de clasificación, matriz de confusión y reglas del árbol. Las predicciones se guardan en `predicciones_prueba.csv` para facilitar su revisión.
