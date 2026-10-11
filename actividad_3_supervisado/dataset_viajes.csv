@@ -1,0 +1,601 @@
+origen,destino,paradas,transbordos,costo_ruta,hora_salida,hora_pico,lluvia,nivel_demora
+Calle 19,Calle 63,3,0,3,0,0,1,Baja
+Calle 63,Calle 57,1,0,1,7,1,0,Baja
+Calle 19,Calle 100,6,1,8,21,0,0,Media
+Zona Industrial,Portal Américas,4,0,4,13,0,0,Baja
+Banderas,Universidad Nacional,6,1,8,2,0,0,Media
+Calle 63,Banderas,8,0,8,16,1,0,Media
+Universidad Nacional,Ricaurte,2,0,2,6,1,1,Media
+Calle 57,Marsella,5,1,7,14,0,1,Media
+Banderas,Calle 26,6,0,6,5,0,1,Media
+Mandalay,Calle 26,5,0,5,8,1,0,Media
+Calle 57,Calle 85,3,1,5,10,0,0,Baja
+Calle 127,Portal Norte,1,0,1,12,0,0,Baja
+Mandalay,Portal Norte,12,1,14,11,0,1,Alta
+Calle 100,Calle 57,4,1,6,23,0,1,Media
+Universidad Nacional,Calle 127,6,1,8,3,0,1,Media
+Calle 127,Calle 63,4,0,4,17,1,1,Media
+Mandalay,Universidad Nacional,5,1,7,18,1,0,Media
+Calle 127,Calle 100,1,0,1,1,0,0,Baja
+Calle 72,Portal Américas,10,0,10,2,0,0,Media
+Calle 19,Banderas,5,0,5,12,0,1,Media
+Portal Américas,Marsella,3,0,3,20,0,1,Baja
+Calle 26,Universidad Nacional,4,1,6,11,0,1,Media
+Calle 57,Calle 45,2,1,4,21,0,1,Media
+Calle 127,Calle 19,7,1,9,19,1,0,Alta
+Universidad Nacional,Calle 100,5,1,7,23,0,0,Media
+Calle 26,Universidad Nacional,4,1,6,14,0,1,Media
+Calle 72,Calle 127,3,0,3,20,0,0,Baja
+Calle 85,Portal Norte,3,0,3,1,0,0,Baja
+Banderas,Zona Industrial,3,0,3,10,0,1,Baja
+Calle 72,Calle 100,2,0,2,2,0,0,Baja
+Zona Industrial,Calle 100,8,1,10,22,0,1,Alta
+Calle 57,Calle 63,1,0,1,20,0,1,Baja
+Marsella,Universidad Nacional,4,1,6,20,0,1,Media
+Calle 26,Calle 57,3,1,5,8,1,0,Media
+Calle 63,Calle 72,1,0,1,23,0,1,Baja
+Zona Industrial,Mandalay,2,0,2,13,0,1,Baja
+Mandalay,Universidad Nacional,5,1,7,7,1,0,Media
+Ricaurte,Calle 45,3,0,3,15,0,0,Baja
+Calle 100,Calle 72,2,0,2,3,0,0,Baja
+Calle 26,Portal Norte,7,1,9,21,0,1,Alta
+Zona Industrial,Universidad Nacional,3,1,5,2,0,1,Media
+Marsella,Calle 72,7,0,7,19,1,1,Alta
+Ricaurte,Universidad Nacional,2,0,2,8,1,0,Baja
+Calle 19,Calle 72,4,0,4,21,0,1,Media
+Mandalay,Calle 26,5,0,5,3,0,1,Media
+Portal Américas,Calle 100,12,1,14,5,0,1,Alta
+Banderas,Calle 127,12,1,14,23,0,1,Alta
+Ricaurte,Calle 100,7,1,9,5,0,0,Media
+Calle 72,Zona Industrial,6,0,6,20,0,0,Media
+Calle 26,Marsella,4,0,4,11,0,0,Baja
+Universidad Nacional,Calle 26,4,1,6,16,1,0,Media
+Calle 85,Portal Américas,11,1,13,15,0,0,Alta
+Calle 19,Calle 63,3,0,3,11,0,1,Baja
+Calle 63,Calle 19,3,0,3,1,0,0,Baja
+Zona Industrial,Calle 100,8,1,10,2,0,0,Media
+Portal Norte,Mandalay,12,1,14,2,0,0,Alta
+Calle 19,Ricaurte,1,0,1,21,0,1,Baja
+Universidad Nacional,Calle 85,4,1,6,5,0,1,Media
+Ricaurte,Universidad Nacional,2,0,2,19,1,1,Media
+Calle 57,Calle 63,1,0,1,17,1,0,Baja
+Calle 85,Calle 57,3,1,5,12,0,1,Media
+Portal Américas,Calle 19,6,0,6,16,1,1,Media
+Calle 19,Marsella,3,0,3,7,1,0,Baja
+Calle 100,Universidad Nacional,5,1,7,10,0,0,Media
+Zona Industrial,Paloquemao,2,1,4,17,1,0,Media
+Zona Industrial,Paloquemao,2,1,4,7,1,0,Media
+Calle 127,Calle 19,7,1,9,22,0,0,Media
+Calle 57,Universidad Nacional,1,0,1,2,0,0,Baja
+Calle 85,Zona Industrial,7,1,9,2,0,0,Media
+Calle 72,Calle 57,2,1,4,21,0,1,Media
+Calle 57,Calle 72,2,1,4,17,1,0,Media
+Zona Industrial,Calle 19,2,0,2,18,1,1,Media
+Calle 63,Calle 45,1,0,1,15,0,1,Baja
+Calle 45,Portal Américas,8,0,8,3,0,0,Media
+Paloquemao,Zona Industrial,2,1,4,11,0,1,Media
+Paloquemao,Calle 57,2,0,2,14,0,0,Baja
+Calle 127,Zona Industrial,9,1,11,1,0,1,Alta
+Mandalay,Calle 19,4,0,4,3,0,0,Baja
+Calle 45,Portal Norte,6,1,8,6,1,1,Alta
+Calle 26,Calle 19,1,0,1,13,0,0,Baja
+Calle 72,Calle 57,2,1,4,14,0,0,Baja
+Calle 127,Calle 45,5,1,7,14,0,0,Media
+Calle 100,Calle 85,1,0,1,20,0,0,Baja
+Calle 127,Portal Norte,1,0,1,7,1,0,Baja
+Paloquemao,Calle 26,3,1,5,15,0,1,Media
+Calle 57,Calle 72,2,1,4,12,0,0,Baja
+Calle 26,Zona Industrial,3,0,3,12,0,0,Baja
+Marsella,Portal Américas,3,0,3,8,1,1,Media
+Calle 72,Marsella,7,0,7,13,0,1,Media
+Calle 26,Paloquemao,3,1,5,6,1,1,Media
+Calle 57,Mandalay,6,1,8,1,0,0,Media
+Calle 85,Calle 63,2,0,2,1,0,0,Baja
+Zona Industrial,Mandalay,2,0,2,15,0,0,Baja
+Calle 100,Portal Américas,12,1,14,16,1,0,Alta
+Calle 45,Marsella,5,0,5,2,0,0,Baja
+Calle 63,Calle 100,3,0,3,12,0,0,Baja
+Zona Industrial,Calle 127,9,1,11,7,1,0,Alta
+Calle 127,Calle 72,3,0,3,13,0,1,Baja
+Calle 63,Ricaurte,4,0,4,6,1,1,Media
+Calle 63,Calle 19,3,0,3,8,1,1,Media
+Calle 19,Zona Industrial,2,0,2,21,0,1,Baja
+Portal Américas,Portal Norte,14,1,16,10,0,0,Alta
+Banderas,Calle 45,7,0,7,14,0,0,Media
+Calle 127,Calle 26,6,1,8,17,1,0,Media
+Ricaurte,Calle 26,2,0,2,8,1,0,Baja
+Mandalay,Calle 72,8,0,8,2,0,0,Media
+Marsella,Calle 127,10,1,12,9,1,0,Alta
+Portal Américas,Calle 19,6,0,6,17,1,1,Media
+Ricaurte,Universidad Nacional,2,0,2,0,0,1,Baja
+Calle 19,Calle 127,7,1,9,4,0,1,Alta
+Calle 19,Calle 85,5,1,7,3,0,0,Media
+Calle 72,Calle 19,4,0,4,9,1,0,Media
+Mandalay,Calle 45,6,0,6,6,1,1,Media
+Ricaurte,Calle 19,1,0,1,15,0,1,Baja
+Calle 100,Mandalay,10,1,12,2,0,1,Alta
+Calle 72,Calle 45,2,0,2,1,0,0,Baja
+Mandalay,Banderas,1,0,1,4,0,1,Baja
+Calle 26,Ricaurte,2,0,2,23,0,1,Baja
+Universidad Nacional,Mandalay,5,1,7,22,0,1,Media
+Universidad Nacional,Ricaurte,2,0,2,0,0,0,Baja
+Calle 127,Calle 45,5,1,7,22,0,0,Media
+Universidad Nacional,Calle 63,2,0,2,1,0,1,Baja
+Zona Industrial,Calle 85,7,1,9,17,1,0,Alta
+Paloquemao,Zona Industrial,2,1,4,4,0,0,Baja
+Calle 85,Calle 26,4,1,6,11,0,0,Media
+Mandalay,Portal Norte,12,1,14,6,1,0,Alta
+Calle 19,Calle 100,6,1,8,11,0,1,Media
+Calle 26,Paloquemao,3,1,5,7,1,0,Media
+Calle 45,Calle 57,2,1,4,13,0,0,Baja
+Calle 45,Calle 63,1,0,1,23,0,1,Baja
+Paloquemao,Calle 57,2,0,2,21,0,0,Baja
+Calle 72,Banderas,9,0,9,5,0,0,Media
+Marsella,Calle 72,7,0,7,1,0,1,Media
+Calle 57,Paloquemao,2,0,2,6,1,1,Media
+Mandalay,Calle 85,9,1,11,9,1,0,Alta
+Calle 57,Portal Américas,8,1,10,0,0,0,Media
+Paloquemao,Banderas,5,1,7,10,0,1,Media
+Calle 127,Calle 100,1,0,1,8,1,1,Baja
+Ricaurte,Calle 45,3,0,3,12,0,1,Baja
+Banderas,Ricaurte,4,0,4,3,0,1,Media
+Calle 45,Calle 63,1,0,1,18,1,1,Baja
+Calle 100,Calle 19,6,1,8,3,0,1,Media
+Mandalay,Calle 57,6,1,8,23,0,1,Media
+Portal Américas,Calle 127,13,1,15,19,1,0,Alta
+Marsella,Mandalay,1,0,1,18,1,0,Baja
+Calle 63,Paloquemao,3,0,3,1,0,1,Baja
+Banderas,Calle 100,11,1,13,16,1,0,Alta
+Mandalay,Zona Industrial,2,0,2,13,0,0,Baja
+Calle 85,Zona Industrial,7,1,9,19,1,1,Alta
+Calle 19,Portal Américas,6,0,6,23,0,1,Media
+Ricaurte,Calle 26,2,0,2,9,1,1,Media
+Calle 85,Ricaurte,6,1,8,12,0,1,Media
+Universidad Nacional,Marsella,4,1,6,4,0,0,Media
+Paloquemao,Marsella,3,1,5,21,0,1,Media
+Calle 45,Calle 26,1,0,1,19,1,1,Baja
+Paloquemao,Calle 19,2,1,4,17,1,0,Media
+Calle 85,Calle 127,2,0,2,9,1,0,Baja
+Paloquemao,Zona Industrial,2,1,4,18,1,1,Media
+Portal Norte,Banderas,13,1,15,14,0,1,Alta
+Calle 57,Calle 72,2,1,4,16,1,1,Media
+Calle 45,Calle 100,4,1,6,21,0,0,Media
+Calle 72,Mandalay,8,0,8,16,1,1,Alta
+Calle 127,Portal Norte,1,0,1,7,1,1,Baja
+Calle 57,Portal Norte,6,1,8,6,1,0,Media
+Banderas,Portal Américas,1,0,1,1,0,0,Baja
+Portal Norte,Calle 45,6,1,8,19,1,0,Media
+Portal Américas,Paloquemao,6,1,8,13,0,0,Media
+Marsella,Calle 85,8,1,10,15,0,1,Alta
+Calle 63,Calle 45,1,0,1,4,0,0,Baja
+Calle 19,Calle 26,1,0,1,13,0,0,Baja
+Calle 45,Calle 57,2,1,4,22,0,1,Media
+Calle 100,Calle 85,1,0,1,17,1,0,Baja
+Calle 19,Paloquemao,2,1,4,14,0,0,Baja
+Portal Américas,Zona Industrial,4,0,4,21,0,1,Media
+Portal Américas,Calle 45,8,0,8,19,1,1,Alta
+Universidad Nacional,Calle 72,3,1,5,14,0,0,Baja
+Portal Norte,Calle 45,6,1,8,14,0,1,Media
+Calle 63,Calle 72,1,0,1,20,0,1,Baja
+Ricaurte,Marsella,2,0,2,15,0,0,Baja
+Calle 72,Calle 26,3,0,3,14,0,0,Baja
+Calle 72,Marsella,7,0,7,7,1,1,Alta
+Mandalay,Calle 100,10,1,12,10,0,0,Alta
+Calle 26,Calle 127,6,1,8,4,0,0,Media
+Marsella,Calle 85,8,1,10,22,0,0,Media
+Calle 57,Calle 72,2,1,4,2,0,1,Media
+Paloquemao,Calle 26,3,1,5,10,0,1,Media
+Paloquemao,Calle 72,4,1,6,1,0,0,Media
+Paloquemao,Marsella,3,1,5,12,0,0,Baja
+Zona Industrial,Calle 45,4,0,4,12,0,1,Media
+Banderas,Calle 26,6,0,6,11,0,1,Media
+Marsella,Portal Américas,3,0,3,13,0,0,Baja
+Portal Norte,Marsella,11,1,13,7,1,1,Alta
+Portal Américas,Calle 127,13,1,15,15,0,0,Alta
+Marsella,Portal Américas,3,0,3,10,0,1,Baja
+Calle 26,Zona Industrial,3,0,3,14,0,0,Baja
+Universidad Nacional,Calle 100,5,1,7,0,0,1,Media
+Zona Industrial,Portal Norte,10,1,12,18,1,0,Alta
+Calle 127,Calle 85,2,0,2,20,0,1,Baja
+Calle 26,Calle 100,5,1,7,14,0,0,Media
+Calle 100,Calle 85,1,0,1,8,1,1,Baja
+Calle 85,Ricaurte,6,1,8,6,1,1,Alta
+Calle 85,Ricaurte,6,1,8,10,0,1,Media
+Calle 72,Calle 57,2,1,4,13,0,1,Media
+Calle 127,Calle 72,3,0,3,15,0,0,Baja
+Universidad Nacional,Calle 26,4,1,6,1,0,1,Media
+Calle 57,Portal Américas,8,1,10,20,0,0,Media
+Calle 100,Calle 26,5,1,7,0,0,0,Media
+Calle 57,Banderas,7,1,9,0,0,0,Media
+Calle 63,Calle 19,3,0,3,4,0,1,Baja
+Calle 19,Calle 72,4,0,4,18,1,0,Media
+Portal Norte,Banderas,13,1,15,22,0,1,Alta
+Marsella,Calle 100,9,1,11,5,0,0,Alta
+Calle 26,Universidad Nacional,4,1,6,9,1,0,Media
+Zona Industrial,Calle 63,5,0,5,0,0,1,Media
+Zona Industrial,Calle 45,4,0,4,21,0,1,Media
+Marsella,Zona Industrial,1,0,1,22,0,0,Baja
+Calle 127,Calle 45,5,1,7,18,1,0,Media
+Calle 19,Calle 100,6,1,8,22,0,1,Media
+Calle 19,Marsella,3,0,3,18,1,0,Baja
+Mandalay,Calle 63,7,0,7,17,1,1,Alta
+Marsella,Calle 127,10,1,12,2,0,1,Alta
+Banderas,Calle 63,8,0,8,13,0,1,Media
+Calle 19,Calle 26,1,0,1,13,0,1,Baja
+Portal Américas,Ricaurte,5,0,5,22,0,0,Baja
+Portal Américas,Calle 100,12,1,14,5,0,1,Alta
+Universidad Nacional,Calle 19,3,1,5,15,0,1,Media
+Portal Américas,Calle 127,13,1,15,23,0,1,Alta
+Calle 85,Portal Américas,11,1,13,7,1,0,Alta
+Calle 72,Calle 57,2,1,4,14,0,0,Baja
+Portal Américas,Zona Industrial,4,0,4,18,1,1,Media
+Mandalay,Calle 127,11,1,13,0,0,1,Alta
+Calle 85,Portal Norte,3,0,3,5,0,1,Baja
+Calle 57,Calle 63,1,0,1,11,0,1,Baja
+Mandalay,Calle 26,5,0,5,8,1,1,Media
+Universidad Nacional,Paloquemao,1,0,1,0,0,0,Baja
+Calle 127,Mandalay,11,1,13,7,1,1,Alta
+Portal Norte,Paloquemao,8,1,10,17,1,0,Alta
+Portal Norte,Calle 45,6,1,8,20,0,1,Media
+Portal Américas,Calle 72,10,0,10,0,0,0,Media
+Calle 72,Ricaurte,5,0,5,7,1,1,Media
+Calle 63,Calle 45,1,0,1,9,1,1,Baja
+Portal Norte,Calle 26,7,1,9,17,1,1,Alta
+Paloquemao,Portal Norte,8,1,10,23,0,1,Alta
+Mandalay,Marsella,1,0,1,22,0,1,Baja
+Calle 72,Calle 127,3,0,3,9,1,1,Media
+Calle 57,Zona Industrial,4,1,6,3,0,0,Media
+Calle 85,Calle 72,1,0,1,3,0,0,Baja
+Calle 45,Portal Norte,6,1,8,6,1,1,Alta
+Calle 72,Calle 45,2,0,2,23,0,1,Baja
+Calle 19,Banderas,5,0,5,6,1,1,Media
+Calle 57,Ricaurte,3,0,3,11,0,0,Baja
+Calle 85,Calle 100,1,0,1,0,0,0,Baja
+Calle 72,Calle 26,3,0,3,1,0,0,Baja
+Universidad Nacional,Marsella,4,1,6,9,1,0,Media
+Portal Norte,Portal Américas,14,1,16,3,0,0,Alta
+Zona Industrial,Calle 26,3,0,3,9,1,1,Media
+Portal Norte,Calle 63,5,0,5,14,0,1,Media
+Calle 45,Mandalay,6,0,6,1,0,1,Media
+Portal Norte,Calle 57,6,1,8,3,0,0,Media
+Paloquemao,Calle 100,6,1,8,15,0,0,Media
+Zona Industrial,Calle 57,4,1,6,20,0,0,Media
+Calle 26,Mandalay,5,0,5,4,0,1,Media
+Calle 127,Mandalay,11,1,13,7,1,0,Alta
+Universidad Nacional,Portal Américas,7,1,9,13,0,0,Media
+Ricaurte,Paloquemao,1,0,1,12,0,1,Baja
+Portal Américas,Calle 45,8,0,8,9,1,1,Alta
+Calle 85,Calle 19,5,1,7,18,1,0,Media
+Calle 127,Zona Industrial,9,1,11,6,1,0,Alta
+Calle 63,Zona Industrial,5,0,5,21,0,0,Baja
+Calle 26,Portal Américas,7,0,7,7,1,0,Media
+Universidad Nacional,Mandalay,5,1,7,2,0,0,Media
+Banderas,Calle 127,12,1,14,13,0,1,Alta
+Zona Industrial,Ricaurte,1,0,1,15,0,1,Baja
+Banderas,Zona Industrial,3,0,3,7,1,1,Media
+Calle 72,Calle 85,1,0,1,22,0,1,Baja
+Calle 127,Calle 19,7,1,9,21,0,0,Media
+Calle 63,Zona Industrial,5,0,5,20,0,0,Baja
+Paloquemao,Portal Norte,8,1,10,3,0,0,Media
+Calle 26,Calle 85,4,1,6,8,1,0,Media
+Calle 127,Calle 19,7,1,9,1,0,0,Media
+Calle 85,Calle 26,4,1,6,19,1,1,Media
+Portal Américas,Calle 19,6,0,6,3,0,1,Media
+Calle 85,Calle 127,2,0,2,22,0,1,Baja
+Calle 72,Calle 19,4,0,4,16,1,1,Media
+Portal Américas,Calle 19,6,0,6,2,0,0,Media
+Portal Américas,Banderas,1,0,1,23,0,1,Baja
+Calle 63,Mandalay,7,0,7,0,0,0,Media
+Calle 57,Universidad Nacional,1,0,1,21,0,0,Baja
+Calle 72,Calle 100,2,0,2,18,1,0,Baja
+Calle 45,Calle 26,1,0,1,15,0,1,Baja
+Calle 72,Calle 57,2,1,4,5,0,1,Media
+Portal Norte,Portal Américas,14,1,16,2,0,1,Alta
+Mandalay,Calle 72,8,0,8,13,0,1,Media
+Calle 85,Paloquemao,5,1,7,21,0,0,Media
+Calle 26,Ricaurte,2,0,2,10,0,1,Baja
+Portal Norte,Universidad Nacional,7,1,9,9,1,1,Alta
+Universidad Nacional,Calle 85,4,1,6,1,0,1,Media
+Calle 127,Paloquemao,7,1,9,10,0,1,Alta
+Calle 85,Portal Américas,11,1,13,3,0,1,Alta
+Ricaurte,Calle 72,5,0,5,0,0,1,Media
+Paloquemao,Calle 63,3,0,3,1,0,0,Baja
+Ricaurte,Mandalay,3,0,3,11,0,1,Baja
+Portal Américas,Calle 45,8,0,8,1,0,0,Media
+Calle 72,Banderas,9,0,9,17,1,0,Alta
+Calle 72,Paloquemao,4,1,6,14,0,1,Media
+Calle 19,Paloquemao,2,1,4,0,0,0,Baja
+Calle 26,Portal Norte,7,1,9,9,1,0,Alta
+Universidad Nacional,Mandalay,5,1,7,13,0,0,Media
+Calle 57,Portal Norte,6,1,8,3,0,1,Media
+Calle 19,Mandalay,4,0,4,20,0,0,Baja
+Ricaurte,Banderas,4,0,4,22,0,1,Media
+Ricaurte,Calle 45,3,0,3,22,0,1,Baja
+Paloquemao,Calle 72,4,1,6,15,0,1,Media
+Calle 63,Calle 45,1,0,1,14,0,0,Baja
+Marsella,Calle 85,8,1,10,6,1,0,Alta
+Calle 127,Calle 100,1,0,1,8,1,1,Baja
+Mandalay,Calle 26,5,0,5,16,1,1,Media
+Banderas,Calle 127,12,1,14,9,1,1,Alta
+Zona Industrial,Marsella,1,0,1,18,1,1,Baja
+Calle 26,Calle 85,4,1,6,14,0,1,Media
+Mandalay,Calle 57,6,1,8,10,0,1,Media
+Portal Américas,Paloquemao,6,1,8,10,0,0,Media
+Calle 63,Calle 19,3,0,3,18,1,1,Media
+Calle 63,Banderas,8,0,8,13,0,0,Media
+Calle 85,Mandalay,9,1,11,23,0,1,Alta
+Marsella,Calle 72,7,0,7,12,0,0,Media
+Portal Norte,Universidad Nacional,7,1,9,1,0,0,Media
+Ricaurte,Calle 127,8,1,10,18,1,1,Alta
+Calle 19,Banderas,5,0,5,14,0,0,Baja
+Ricaurte,Portal Norte,9,1,11,14,0,0,Alta
+Calle 26,Calle 57,3,1,5,13,0,0,Baja
+Calle 127,Calle 45,5,1,7,15,0,1,Media
+Mandalay,Calle 19,4,0,4,19,1,1,Media
+Calle 127,Calle 72,3,0,3,10,0,1,Baja
+Calle 85,Mandalay,9,1,11,20,0,1,Alta
+Universidad Nacional,Calle 45,3,1,5,1,0,0,Baja
+Calle 63,Calle 100,3,0,3,20,0,1,Baja
+Calle 57,Ricaurte,3,0,3,23,0,0,Baja
+Portal Américas,Calle 100,12,1,14,3,0,0,Alta
+Portal Américas,Calle 57,8,1,10,5,0,1,Alta
+Banderas,Ricaurte,4,0,4,1,0,1,Media
+Calle 100,Paloquemao,6,1,8,9,1,1,Alta
+Marsella,Calle 26,4,0,4,13,0,0,Baja
+Calle 63,Calle 57,1,0,1,16,1,1,Baja
+Zona Industrial,Banderas,3,0,3,21,0,0,Baja
+Calle 45,Calle 127,5,1,7,5,0,0,Media
+Marsella,Calle 72,7,0,7,19,1,0,Media
+Portal Norte,Zona Industrial,10,1,12,18,1,0,Alta
+Calle 57,Zona Industrial,4,1,6,14,0,1,Media
+Portal Américas,Ricaurte,5,0,5,8,1,0,Media
+Portal Norte,Banderas,13,1,15,9,1,0,Alta
+Calle 127,Calle 26,6,1,8,14,0,1,Media
+Zona Industrial,Marsella,1,0,1,9,1,1,Baja
+Calle 63,Mandalay,7,0,7,14,0,1,Media
+Calle 45,Zona Industrial,4,0,4,12,0,1,Media
+Calle 19,Calle 26,1,0,1,7,1,1,Baja
+Zona Industrial,Calle 19,2,0,2,11,0,1,Baja
+Calle 72,Universidad Nacional,3,1,5,0,0,1,Media
+Calle 72,Calle 26,3,0,3,0,0,0,Baja
+Portal Norte,Zona Industrial,10,1,12,9,1,0,Alta
+Mandalay,Marsella,1,0,1,7,1,0,Baja
+Calle 63,Mandalay,7,0,7,21,0,0,Media
+Calle 127,Universidad Nacional,6,1,8,20,0,0,Media
+Calle 85,Calle 45,3,1,5,14,0,0,Baja
+Zona Industrial,Calle 63,5,0,5,11,0,0,Baja
+Calle 127,Portal Américas,13,1,15,9,1,1,Alta
+Paloquemao,Calle 72,4,1,6,5,0,0,Media
+Calle 19,Zona Industrial,2,0,2,17,1,1,Media
+Ricaurte,Zona Industrial,1,0,1,16,1,1,Baja
+Calle 26,Zona Industrial,3,0,3,8,1,1,Media
+Calle 72,Universidad Nacional,3,1,5,23,0,1,Media
+Calle 19,Calle 72,4,0,4,14,0,0,Baja
+Calle 26,Calle 45,1,0,1,7,1,1,Baja
+Universidad Nacional,Portal Américas,7,1,9,11,0,0,Media
+Marsella,Universidad Nacional,4,1,6,0,0,1,Media
+Universidad Nacional,Calle 127,6,1,8,3,0,1,Media
+Marsella,Calle 100,9,1,11,21,0,1,Alta
+Zona Industrial,Mandalay,2,0,2,12,0,1,Baja
+Calle 19,Calle 45,2,0,2,21,0,0,Baja
+Portal Norte,Calle 19,8,1,10,0,0,1,Alta
+Calle 57,Paloquemao,2,0,2,20,0,0,Baja
+Portal Américas,Zona Industrial,4,0,4,22,0,1,Media
+Paloquemao,Calle 45,4,1,6,3,0,0,Media
+Calle 100,Calle 63,3,0,3,1,0,1,Baja
+Portal Norte,Ricaurte,9,1,11,3,0,0,Alta
+Calle 63,Calle 100,3,0,3,17,1,0,Baja
+Marsella,Paloquemao,3,1,5,14,0,1,Media
+Universidad Nacional,Calle 26,4,1,6,13,0,0,Media
+Paloquemao,Calle 72,4,1,6,20,0,0,Media
+Portal Norte,Paloquemao,8,1,10,19,1,1,Alta
+Calle 72,Calle 63,1,0,1,1,0,1,Baja
+Calle 57,Mandalay,6,1,8,14,0,1,Media
+Calle 63,Calle 100,3,0,3,11,0,0,Baja
+Marsella,Calle 100,9,1,11,17,1,1,Alta
+Calle 100,Ricaurte,7,1,9,12,0,1,Alta
+Calle 45,Portal Américas,8,0,8,3,0,1,Media
+Calle 127,Portal Américas,13,1,15,21,0,0,Alta
+Zona Industrial,Universidad Nacional,3,1,5,0,0,0,Baja
+Mandalay,Banderas,1,0,1,7,1,0,Baja
+Zona Industrial,Banderas,3,0,3,6,1,0,Baja
+Universidad Nacional,Marsella,4,1,6,6,1,0,Media
+Calle 63,Banderas,8,0,8,10,0,0,Media
+Zona Industrial,Universidad Nacional,3,1,5,0,0,1,Media
+Calle 26,Calle 63,2,0,2,4,0,1,Baja
+Calle 45,Calle 26,1,0,1,3,0,0,Baja
+Calle 19,Zona Industrial,2,0,2,0,0,1,Baja
+Calle 63,Calle 127,4,0,4,18,1,1,Media
+Banderas,Calle 85,10,1,12,5,0,1,Alta
+Calle 100,Mandalay,10,1,12,4,0,1,Alta
+Ricaurte,Portal Norte,9,1,11,3,0,0,Alta
+Portal Norte,Calle 45,6,1,8,14,0,1,Media
+Ricaurte,Calle 63,4,0,4,18,1,0,Media
+Portal Américas,Mandalay,2,0,2,16,1,0,Baja
+Calle 100,Calle 57,4,1,6,23,0,1,Media
+Portal Américas,Portal Norte,14,1,16,20,0,0,Alta
+Calle 100,Ricaurte,7,1,9,15,0,1,Alta
+Paloquemao,Ricaurte,1,0,1,21,0,0,Baja
+Portal Norte,Portal Américas,14,1,16,22,0,1,Alta
+Calle 127,Calle 26,6,1,8,2,0,1,Media
+Calle 26,Calle 72,3,0,3,2,0,0,Baja
+Calle 72,Calle 26,3,0,3,19,1,1,Media
+Marsella,Calle 72,7,0,7,19,1,1,Alta
+Portal Américas,Marsella,3,0,3,16,1,1,Media
+Calle 127,Zona Industrial,9,1,11,22,0,0,Alta
+Universidad Nacional,Mandalay,5,1,7,23,0,0,Media
+Paloquemao,Zona Industrial,2,1,4,14,0,0,Baja
+Paloquemao,Calle 63,3,0,3,10,0,1,Baja
+Paloquemao,Banderas,5,1,7,13,0,0,Media
+Calle 85,Calle 63,2,0,2,13,0,1,Baja
+Calle 63,Paloquemao,3,0,3,11,0,0,Baja
+Portal Norte,Calle 26,7,1,9,2,0,0,Media
+Calle 127,Mandalay,11,1,13,2,0,1,Alta
+Calle 127,Universidad Nacional,6,1,8,23,0,1,Media
+Calle 19,Universidad Nacional,3,1,5,17,1,0,Media
+Zona Industrial,Marsella,1,0,1,17,1,1,Baja
+Calle 19,Paloquemao,2,1,4,13,0,1,Media
+Paloquemao,Portal Américas,6,1,8,23,0,0,Media
+Calle 72,Paloquemao,4,1,6,19,1,1,Media
+Mandalay,Marsella,1,0,1,3,0,0,Baja
+Calle 26,Paloquemao,3,1,5,21,0,1,Media
+Calle 57,Portal Américas,8,1,10,3,0,1,Alta
+Universidad Nacional,Paloquemao,1,0,1,11,0,0,Baja
+Calle 72,Calle 57,2,1,4,18,1,0,Media
+Paloquemao,Universidad Nacional,1,0,1,17,1,0,Baja
+Calle 72,Banderas,9,0,9,0,0,0,Media
+Calle 72,Calle 19,4,0,4,22,0,1,Media
+Mandalay,Calle 19,4,0,4,11,0,0,Baja
+Calle 45,Calle 72,2,0,2,4,0,1,Baja
+Calle 127,Calle 100,1,0,1,4,0,0,Baja
+Calle 127,Portal Américas,13,1,15,23,0,0,Alta
+Marsella,Calle 45,5,0,5,13,0,1,Media
+Mandalay,Calle 26,5,0,5,5,0,1,Media
+Calle 85,Calle 57,3,1,5,23,0,1,Media
+Zona Industrial,Calle 100,8,1,10,19,1,0,Alta
+Calle 100,Mandalay,10,1,12,4,0,0,Alta
+Calle 100,Calle 85,1,0,1,21,0,0,Baja
+Calle 72,Calle 19,4,0,4,14,0,1,Media
+Portal Norte,Mandalay,12,1,14,19,1,1,Alta
+Paloquemao,Calle 72,4,1,6,8,1,0,Media
+Ricaurte,Calle 63,4,0,4,3,0,1,Media
+Paloquemao,Zona Industrial,2,1,4,3,0,1,Media
+Zona Industrial,Portal Norte,10,1,12,15,0,1,Alta
+Calle 100,Calle 63,3,0,3,7,1,1,Media
+Calle 100,Paloquemao,6,1,8,0,0,0,Media
+Calle 85,Calle 100,1,0,1,6,1,0,Baja
+Calle 63,Paloquemao,3,0,3,9,1,1,Media
+Calle 19,Marsella,3,0,3,0,0,1,Baja
+Paloquemao,Zona Industrial,2,1,4,5,0,0,Baja
+Marsella,Calle 63,6,0,6,17,1,0,Media
+Ricaurte,Calle 100,7,1,9,17,1,1,Alta
+Calle 127,Calle 19,7,1,9,12,0,0,Media
+Portal Américas,Calle 127,13,1,15,0,0,1,Alta
+Calle 127,Calle 57,5,1,7,10,0,1,Media
+Zona Industrial,Calle 26,3,0,3,12,0,1,Baja
+Calle 72,Portal Américas,10,0,10,3,0,1,Alta
+Banderas,Marsella,2,0,2,10,0,0,Baja
+Portal Américas,Ricaurte,5,0,5,22,0,1,Media
+Calle 127,Paloquemao,7,1,9,13,0,0,Media
+Calle 63,Calle 45,1,0,1,13,0,1,Baja
+Ricaurte,Portal Américas,5,0,5,2,0,1,Media
+Calle 85,Calle 45,3,1,5,23,0,1,Media
+Calle 57,Paloquemao,2,0,2,10,0,0,Baja
+Calle 127,Calle 57,5,1,7,16,1,0,Media
+Ricaurte,Zona Industrial,1,0,1,16,1,0,Baja
+Mandalay,Calle 72,8,0,8,11,0,0,Media
+Calle 63,Calle 100,3,0,3,3,0,0,Baja
+Calle 63,Portal Américas,9,0,9,6,1,0,Alta
+Calle 26,Marsella,4,0,4,20,0,0,Baja
+Calle 45,Calle 57,2,1,4,20,0,1,Media
+Portal Américas,Zona Industrial,4,0,4,18,1,1,Media
+Zona Industrial,Banderas,3,0,3,20,0,1,Baja
+Calle 85,Calle 72,1,0,1,4,0,1,Baja
+Calle 127,Banderas,12,1,14,15,0,1,Alta
+Calle 85,Calle 127,2,0,2,8,1,0,Baja
+Mandalay,Marsella,1,0,1,16,1,0,Baja
+Calle 85,Calle 45,3,1,5,14,0,1,Media
+Calle 100,Calle 19,6,1,8,1,0,1,Media
+Calle 72,Marsella,7,0,7,2,0,0,Media
+Zona Industrial,Ricaurte,1,0,1,16,1,1,Baja
+Portal Américas,Universidad Nacional,7,1,9,18,1,0,Alta
+Portal Américas,Calle 85,11,1,13,18,1,0,Alta
+Calle 85,Paloquemao,5,1,7,19,1,1,Alta
+Ricaurte,Calle 100,7,1,9,4,0,0,Media
+Portal Américas,Calle 85,11,1,13,3,0,1,Alta
+Calle 127,Mandalay,11,1,13,16,1,0,Alta
+Calle 100,Calle 26,5,1,7,7,1,1,Alta
+Portal Américas,Calle 19,6,0,6,16,1,0,Media
+Mandalay,Zona Industrial,2,0,2,11,0,1,Baja
+Marsella,Paloquemao,3,1,5,13,0,1,Media
+Calle 100,Mandalay,10,1,12,20,0,1,Alta
+Calle 100,Zona Industrial,8,1,10,10,0,0,Media
+Universidad Nacional,Portal Américas,7,1,9,21,0,1,Alta
+Calle 72,Mandalay,8,0,8,8,1,0,Media
+Mandalay,Banderas,1,0,1,2,0,0,Baja
+Mandalay,Calle 85,9,1,11,9,1,1,Alta
+Calle 19,Universidad Nacional,3,1,5,19,1,0,Media
+Calle 85,Calle 45,3,1,5,17,1,1,Media
+Calle 85,Universidad Nacional,4,1,6,4,0,0,Media
+Paloquemao,Portal Américas,6,1,8,16,1,1,Alta
+Banderas,Mandalay,1,0,1,11,0,1,Baja
+Calle 45,Calle 72,2,0,2,6,1,1,Media
+Portal Norte,Mandalay,12,1,14,6,1,0,Alta
+Calle 26,Calle 127,6,1,8,4,0,0,Media
+Calle 72,Universidad Nacional,3,1,5,3,0,0,Baja
+Mandalay,Calle 127,11,1,13,19,1,0,Alta
+Zona Industrial,Universidad Nacional,3,1,5,12,0,0,Baja
+Calle 26,Universidad Nacional,4,1,6,5,0,0,Media
+Portal Américas,Calle 19,6,0,6,1,0,1,Media
+Mandalay,Zona Industrial,2,0,2,21,0,0,Baja
+Portal Américas,Calle 57,8,1,10,19,1,1,Alta
+Portal Américas,Calle 72,10,0,10,7,1,0,Alta
+Calle 85,Calle 45,3,1,5,15,0,0,Baja
+Marsella,Calle 100,9,1,11,21,0,1,Alta
+Portal Américas,Universidad Nacional,7,1,9,9,1,1,Alta
+Ricaurte,Calle 127,8,1,10,16,1,1,Alta
+Calle 26,Ricaurte,2,0,2,6,1,0,Baja
+Calle 63,Mandalay,7,0,7,1,0,1,Media
+Marsella,Calle 19,3,0,3,17,1,0,Baja
+Ricaurte,Calle 85,6,1,8,3,0,1,Media
+Calle 127,Calle 85,2,0,2,5,0,1,Baja
+Portal Américas,Calle 85,11,1,13,16,1,0,Alta
+Portal Américas,Calle 127,13,1,15,2,0,0,Alta
+Portal Américas,Calle 85,11,1,13,11,0,0,Alta
+Paloquemao,Calle 72,4,1,6,1,0,1,Media
+Ricaurte,Calle 127,8,1,10,11,0,0,Media
+Marsella,Mandalay,1,0,1,2,0,1,Baja
+Calle 57,Portal Américas,8,1,10,0,0,1,Alta
+Calle 127,Zona Industrial,9,1,11,22,0,1,Alta
+Calle 26,Calle 63,2,0,2,4,0,0,Baja
+Calle 72,Marsella,7,0,7,15,0,0,Media
+Portal Norte,Calle 127,1,0,1,14,0,0,Baja
+Calle 127,Calle 63,4,0,4,0,0,1,Media
+Calle 57,Calle 85,3,1,5,4,0,1,Media
+Calle 19,Calle 57,4,1,6,9,1,0,Media
+Calle 85,Calle 100,1,0,1,3,0,0,Baja
+Calle 63,Calle 19,3,0,3,13,0,1,Baja
+Calle 100,Universidad Nacional,5,1,7,3,0,1,Media
+Zona Industrial,Universidad Nacional,3,1,5,17,1,0,Media
+Ricaurte,Calle 72,5,0,5,18,1,0,Media
+Calle 26,Calle 57,3,1,5,9,1,1,Media
+Banderas,Calle 100,11,1,13,19,1,1,Alta
+Calle 63,Calle 26,2,0,2,18,1,1,Media
+Calle 45,Marsella,5,0,5,21,0,0,Baja
+Ricaurte,Portal Américas,5,0,5,11,0,0,Baja
+Ricaurte,Portal Norte,9,1,11,17,1,0,Alta
+Marsella,Portal Américas,3,0,3,15,0,0,Baja
+Marsella,Paloquemao,3,1,5,11,0,1,Media
+Banderas,Calle 85,10,1,12,11,0,0,Alta
+Mandalay,Calle 57,6,1,8,7,1,0,Media
+Zona Industrial,Calle 72,6,0,6,23,0,1,Media
+Calle 26,Banderas,6,0,6,1,0,1,Media
+Universidad Nacional,Calle 63,2,0,2,10,0,0,Baja
+Portal Américas,Zona Industrial,4,0,4,22,0,1,Media
+Calle 45,Calle 85,3,1,5,4,0,0,Baja
+Portal Américas,Portal Norte,14,1,16,1,0,1,Alta
+Calle 57,Calle 100,4,1,6,1,0,0,Media
+Calle 100,Calle 45,4,1,6,10,0,1,Media
+Ricaurte,Calle 72,5,0,5,12,0,1,Media
+Calle 63,Marsella,6,0,6,1,0,0,Media
+Calle 72,Marsella,7,0,7,11,0,0,Media
+Calle 85,Zona Industrial,7,1,9,8,1,0,Alta
+Marsella,Calle 100,9,1,11,13,0,1,Alta
+Portal Américas,Calle 26,7,0,7,12,0,1,Media
+Calle 45,Marsella,5,0,5,15,0,1,Media
+Marsella,Calle 100,9,1,11,16,1,1,Alta
+Calle 127,Calle 85,2,0,2,23,0,1,Baja
+Calle 127,Calle 63,4,0,4,13,0,0,Baja
+Universidad Nacional,Calle 63,2,0,2,9,1,1,Media
+Calle 19,Calle 100,6,1,8,2,0,1,Media
+Calle 72,Universidad Nacional,3,1,5,9,1,1,Media
+Paloquemao,Ricaurte,1,0,1,5,0,1,Baja
+Mandalay,Calle 85,9,1,11,14,0,0,Alta
+Mandalay,Marsella,1,0,1,19,1,1,Baja
+Calle 72,Calle 26,3,0,3,20,0,0,Baja
+Calle 127,Calle 45,5,1,7,21,0,1,Media
+Mandalay,Zona Industrial,2,0,2,16,1,0,Baja
+Banderas,Universidad Nacional,6,1,8,4,0,1,Media
+Calle 100,Banderas,11,1,13,4,0,0,Alta
+Calle 63,Calle 100,3,0,3,20,0,1,Baja
+Mandalay,Universidad Nacional,5,1,7,12,0,0,Media
